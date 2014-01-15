@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddViewController.h
 //  AddToTableView
 //
 //  Created by Jesse Wolff on 1/14/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AddViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 @end

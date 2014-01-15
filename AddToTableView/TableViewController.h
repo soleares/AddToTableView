@@ -1,13 +1,13 @@
 //
-//  AppDelegate.m
+//  TableViewController.h
 //  AddToTableView
 //
 //  Created by Jesse Wolff on 1/14/14.
 //  Copyright (c) 2014 Soleares. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import <UIKit/UIKit.h>
 
-@implementation AppDelegate
+@interface TableViewController : UITableViewController
 
 @end
